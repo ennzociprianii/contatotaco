@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --bgcolor : #040642;
+    --accentcolor: #f36858;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+}
+
+
+
+
+.link-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 40px auto;
+    gap: 20px;
+}
+.link-tree img {
+    text-align: center;
+    
+}
+.link-tree h1 {
+    font-size: 2.5rem;
+}
+
+.link-tree a {
+    background-color: var(--accentcolor);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid 2px var(--accentcolor);
+    transition: all 0.5s linear;
+}
+
+.link-tree a:hover {
+    background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+    color: var(--accentcolor);
+    border-radius: 30px;
+    width: 90%;
+
+}
+
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    background: none;
+    position: absolute;
+    
+}
+
+
+ .credito {
+    writing-mode: vertical-rl;
+    float: center; /* analisar */ 
+    text-align: center;
+    rotate: 270deg;
+}
+
+
+@media screen and (max-width: 600px) {
+    :root {
+        --bgcolor : #040642;
+        --accentcolor: #f36858;
+    }
+    
+    body {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+    }
+    
+    
+    
+    
+    .link-tree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 40px auto;
+        gap: 20px;
+    }
+    .link-tree img {
+        text-align: center;
+        width: 70%;
+        height: 70%;
+        
+    }
+    .link-tree h1 {
+        font-size: 1.3rem;
+    }
+    
+    .link-tree a {
+        background-color: var(--accentcolor);
+        color: white;
+        width: 100%;
+        padding: 15px;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+        border: solid 2px var(--accentcolor);
+        transition: all 0.5s linear;
+    }
+    
+    .link-tree a:hover {
+        background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+        color: var(--accentcolor);
+        border-radius: 30px;
+        width: 90%;
+    
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        height: 80px;
+        color: #fff;
+        line-height: 80px;
+        text-align: center;
+        background: none;
+        position: absolute;
+        
+    }
+    
+    
+     .credito {
+        writing-mode: vertical-rl;
+        float: center; /* analisar */ 
+        text-align: center;
+        rotate: 270deg;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    :root {
+        --bgcolor : #040642;
+        --accentcolor: #f36858;
+    }
+    
+    body {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+    }
+    
+    
+    
+    
+    .link-tree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 40px auto;
+        gap: 20px;
+    }
+    .link-tree img {
+        text-align: center;
+        width: 70%;
+        height: 70%;
+        
+    }
+    .link-tree h1 {
+        font-size: 1.3rem;
+    }
+    
+    .link-tree a {
+        background-color: var(--accentcolor);
+        color: white;
+        width: 100%;
+        padding: 15px;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+        border: solid 2px var(--accentcolor);
+        transition: all 0.5s linear;
+    }
+    
+    .link-tree a:hover {
+        background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+        color: var(--accentcolor);
+        border-radius: 30px;
+        width: 90%;
+    
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        height: 80px;
+        color: #fff;
+        line-height: 80px;
+        text-align: center;
+        background: none;
+        position: absolute;
+        
+    }
+    
+    
+     .credito {
+        writing-mode: vertical-rl;
+        float: center; /* analisar */ 
+        text-align: center;
+        rotate: 270deg;
+    }
+}
