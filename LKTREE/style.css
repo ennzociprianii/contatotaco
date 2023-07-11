@@ -14,10 +14,8 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(1000deg, #332255, rgb(38, 20, 73) 50%, #332255 100%);
 }
-
-
 
 
 .link-tree {
@@ -33,32 +31,10 @@ body {
     
 }
 .link-tree h1 {
+    margin-top: -40px;
+    margin-bottom: 10px;
     font-size: 2.5rem;
 }
-
-.link-tree a {
-    background-color: var(--accentcolor);
-    color: white;
-    width: 100%;
-    padding: 15px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border: solid 2px var(--accentcolor);
-    transition: all 0.5s linear;
-}
-
-.link-tree a:hover {
-    background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
-    color: var(--accentcolor);
-    border-radius: 30px;
-    width: 90%;
-
-}
-
-
 
 footer {
     width: 100%;
@@ -68,17 +44,41 @@ footer {
     text-align: center;
     background: none;
     position: absolute;
-    
 }
 
-
- .credito {
-    writing-mode: vertical-rl;
-    float: center; /* analisar */ 
-    text-align: center;
-    rotate: 270deg;
+button a {
+    text-decoration: none;
 }
 
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 50%;
+    height: auto;
+    color: #ffffff;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff;
+    transition: 0.5s ease;
+    user-select: none;
+}
+  
+#btn:hover,:focus {
+    color: #ffffff;
+    background: #ef7a27;
+    border: 1px solid #ef7a27;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 1px #ef7a27,
+                0 0 10px #ef7a27,
+                0 0 30px #ef7a27,
+                0 0 700px #ef7a27;
+}
 
 @media screen and (max-width: 600px) {
     :root {
@@ -87,10 +87,8 @@ footer {
     }
     
     body {
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+        background: linear-gradient(1000deg, #332255, rgb(38, 20, 73) 50%, #332255 100%);
     }
-    
-    
     
     
     .link-tree {
@@ -103,38 +101,13 @@ footer {
     }
     .link-tree img {
         text-align: center;
-        width: 70%;
-        height: 70%;
         
     }
     .link-tree h1 {
-        font-size: 1.3rem;
+        margin-top: -40px;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
     }
-    
-    .link-tree a {
-        background-color: var(--accentcolor);
-        color: white;
-        width: 100%;
-        padding: 15px;
-        text-decoration: none;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 1rem;
-        border-radius: 20px;
-        font-weight: bold;
-        border: solid 2px var(--accentcolor);
-        transition: all 0.5s linear;
-    }
-    
-    .link-tree a:hover {
-        background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
-        color: var(--accentcolor);
-        border-radius: 30px;
-        width: 90%;
-    
-    }
-    
-    
     
     footer {
         width: 100%;
@@ -144,15 +117,42 @@ footer {
         text-align: center;
         background: none;
         position: absolute;
-        
+        background: linear-gradient(1000deg, #332255, rgb(38, 20, 73) 50%, #332255 100%);
+
     }
     
+    button a {
+        text-decoration: none;
+    }
     
-     .credito {
-        writing-mode: vertical-rl;
-        float: center; /* analisar */ 
-        text-align: center;
-        rotate: 270deg;
+    button {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        width: 50%;
+        height: auto;
+        color: #ffffff;
+        text-shadow: none;
+        background: transparent;
+        box-shadow: transparent;
+        border: 1px solid #ffffff;
+        transition: 0.5s ease;
+        user-select: none;
+    }
+      
+    #btn:hover,:focus {
+        color: #ffffff;
+        background: #ef7a27;
+        border: 1px solid #ef7a27;
+        text-shadow: 0 0 5px #ffffff,
+                    0 0 10px #ffffff,
+                    0 0 20px #ffffff;
+        box-shadow: 0 0 1px #ef7a27,
+                    0 0 10px #ef7a27,
+                    0 0 30px #ef7a27,
+                    0 0 700px #ef7a27;
     }
 }
 
@@ -163,10 +163,8 @@ footer {
     }
     
     body {
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
+        background: linear-gradient(1000deg, #332255, rgb(38, 20, 73) 50%, #332255 100%);
     }
-    
-    
     
     
     .link-tree {
@@ -179,38 +177,14 @@ footer {
     }
     .link-tree img {
         text-align: center;
-        width: 70%;
-        height: 70%;
+        scale: 70%;
         
     }
     .link-tree h1 {
-        font-size: 1.3rem;
+        margin-top: -40px;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
     }
-    
-    .link-tree a {
-        background-color: var(--accentcolor);
-        color: white;
-        width: 100%;
-        padding: 15px;
-        text-decoration: none;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 1rem;
-        border-radius: 20px;
-        font-weight: bold;
-        border: solid 2px var(--accentcolor);
-        transition: all 0.5s linear;
-    }
-    
-    .link-tree a:hover {
-        background: linear-gradient(100deg, rgba(2,0,36,1) 0%, #040642 50%, rgba(2,0,36,1) 100%);
-        color: var(--accentcolor);
-        border-radius: 30px;
-        width: 90%;
-    
-    }
-    
-    
     
     footer {
         width: 100%;
@@ -220,14 +194,39 @@ footer {
         text-align: center;
         background: none;
         position: absolute;
-        
     }
     
+    button a {
+        text-decoration: none;
+    }
     
-     .credito {
-        writing-mode: vertical-rl;
-        float: center; /* analisar */ 
-        text-align: center;
-        rotate: 270deg;
+    button {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        width: 300px;
+        height: auto;
+        color: #ffffff;
+        text-shadow: none;
+        background: transparent;
+        box-shadow: transparent;
+        border: 1px solid #ffffff;
+        transition: 0.5s ease;
+        user-select: none;
+    }
+      
+    #btn:hover,:focus {
+        color: #ffffff;
+        background: #ef7a27;
+        border: 1px solid #ef7a27;
+        text-shadow: 0 0 5px #ffffff,
+                    0 0 10px #ffffff,
+                    0 0 20px #ffffff;
+        box-shadow: 0 0 1px #ef7a27,
+                    0 0 10px #ef7a27,
+                    0 0 30px #ef7a27,
+                    0 0 700px #ef7a27;
     }
 }
